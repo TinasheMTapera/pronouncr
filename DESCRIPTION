@@ -1,0 +1,26 @@
+Package: pronouncr
+Type: Package
+Title: An R interface for the CMU Pronouncing Dictionary
+Version: 0.1.0
+Authors@R: person("Tinashe M.", 
+                  "Tapera", 
+                  email = "tinashemtapera@gmail.com",
+                  role = c("aut", "cre"))
+Description: An R interface for the CMU Pronouncing Dictionary, originally
+    implemented by Allison Parrish in Python. This interface emulates all of
+    the original functions in the Python `pronouncing` library for use
+    in R. With this package, you can analyse the pronounciation of words
+    using phonemes described in the Carnegie Mellon University Pronouncing
+    Dictionary — an open-source machine-readable pronunciation dictionary 
+    for North American English comprising of over 134,000 words.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr (>= 0.7.8),
+    tidyr (>= 0.8.1),
+    purrr (>= 0.2.5),
+    stringr (>= 1.3.1),
+    magrittr (>= 1.5)
+Depends: 
+    R (>= 2.10)
